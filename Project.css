@@ -1,0 +1,92 @@
+.Heading{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    width: 250px;
+    border-radius: 5px;
+    
+}
+
+.buton button{
+ height: 50px;
+ width: 50px;
+ margin: 5px;       
+
+ font-size: 30px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover{
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+button:active{
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
+.buton{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+   
+}
+
+
+.IDbox{
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+    position: absolute;
+    left: 34.5%;
+    top: 16%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.IDbox:hover{
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+    transform: scale(1.1);
+
+}
+
+.calc{
+    width: 50%;
+    border: 3px solid black;
+    height: 500px;
+     position: absolute;
+    left: 25%;
+    top: 5%;
+    background-color: gray;
+    border-radius: 20px;  
+}
+
+.equal:hover{
+    color: white;
+}
+
+.AC{
+    background-color: gray;
+ 
+}
+
+.AC:hover{
+    color: white;
+}
